@@ -8,13 +8,18 @@ Never use these, use the ones in the Collection Framework
 
 ## Comparison Sorts
 
-- Bubble
-- Insertion
+All of the current comparison sort implementations are 'in-place'.
+
+- Bubble. Two implementations, one with a fixed number of passes.
+- Insertion.
 - Merge
 - Quicksort
 
 ## Others
 
 - Counting Sort
-- Pigeonhole Sort
+- Pigeonhole Sort (particularly messy)
+
+## Notes
+There is various logging to show the state at various points.
 
